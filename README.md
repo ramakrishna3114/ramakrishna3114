@@ -36,19 +36,32 @@ I'm a recent graduate passionate about Cloud Computing, DevOps, and automation. 
 
 ---
 
-## 📌 Featured Projects
+## 🚀 Featured Projects
 
-### 🚀 FT GitOps
-- Deployed applications using Kubernetes and Argo CD.
-- Used Git-based configuration management for application deployments.
+### 1. 🚀 FT GitOps — Kubernetes Deployment with Argo CD
+- Implemented a GitOps workflow to manage Kubernetes application deployments using Argo CD.
+- Configured Git as the source of truth for application manifests and deployment updates.
+- Automated application synchronization to keep the cluster aligned with the desired configuration.
+- *Tech Stack:* Kubernetes, Argo CD, AWS EKS, Git, YAML
 
-### ⚙️ FT Automation
-- Worked on automating application deployment and DevOps workflows.
-- Used cloud and automation tools to simplify deployment processes.
+### 2. ⚙️ FT Automation — CI/CD Pipeline Automation
+- Built a CI/CD workflow to automate application build and deployment steps.
+- Integrated tools such as Jenkins, Docker, and Git to streamline the delivery process.
+- Used containerization to package applications consistently across environments.
+- *Tech Stack:* Jenkins, Docker, Git, GitHub, Linux
 
-### ☁️ AWS Infrastructure Automation
-- Provisioned AWS infrastructure using Terraform.
-- Worked with EC2, S3, RDS, VPC, and IAM.
+### 3. ☁️ AWS Infrastructure Automation with Terraform
+- Provisioned and managed AWS infrastructure using reusable Terraform configurations.
+- Worked with EC2, S3, VPC, IAM, and RDS to organize cloud resources.
+- Used Infrastructure as Code to make infrastructure provisioning more consistent and repeatable.
+- *Tech Stack:* AWS, Terraform, EC2, S3, VPC, IAM, RDS
+
+### 4. 🔄 Automated Application Delivery with GitHub Actions
+- Created a CI workflow to automate application validation and build steps.
+- Used GitHub Actions to run pipeline tasks when code changes were pushed.
+- Organized workflow configuration using YAML files stored in the repository.
+- *Tech Stack:* GitHub Actions, Git, YAML, CI/CD
+-
 
 ---
 
